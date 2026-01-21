@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Monitor de Sensores"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acelerómetro (Movimiento)"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtAcelerometro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando datos..."
+            android:background="#EEEEEE"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor de Luz (Ambiente)"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtLuz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando datos..."
+            android:background="#FFF9C4"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proximidad (Interaccion apagar pantalla)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProximidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando datos..."
+            android:background="#E1BEE7"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
