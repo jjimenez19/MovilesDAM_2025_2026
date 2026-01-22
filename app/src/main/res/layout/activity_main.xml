@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/statusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de Enfoque"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFocusStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esperando..."
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvPostureWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postura: OK"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
